@@ -16,26 +16,38 @@ namespace Arrays
             try
             {
                 // Display informative message to the user.
-                Console.WriteLine("Let's manually populate an array with integers");
+                Console.WriteLine("Populate an array with integers");
                 Console.WriteLine();
-                Console.WriteLine("Then, let's iterate through the elements in the array");
+                Console.WriteLine("Iterate through the elements in the array");
                 Console.WriteLine("_________________________________________");
 
                 // To declare and initialize the array 
-                int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25 };
+                int[] numbers = new int[25];
+                int i, j;
 
-                // Loop iterates through the array.
-                foreach (int i in numbers)
+                //Initialize elements an array
+
+                for (i = 0; i < 25; i++)
                 {
-                    // Display message with array value.
-                    Console.WriteLine("The element value is: " + i);
+                    numbers[i] = i + 1;
+
+                }
+
+                // Display message with array value
+                for (j = 0; j < 25; j++)
+                {
+                    Console.WriteLine("Element[{0}] = {1}", j, numbers[j]);
+                
+                    
                 }
                 Console.WriteLine("_________________________________________");
                 // Display message after element values have been displayed 
+
                 Console.WriteLine();
-                Console.WriteLine("Excellent Job! ");
+                Console.WriteLine("The values should be displayed! ");
 
                 // Display message to inform user of exit.
+
                 Console.WriteLine();
                 Console.WriteLine("Press any key to exit the program...");
 
