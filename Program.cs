@@ -2,7 +2,7 @@
  Author: Alfred Williams
  Date: 2/5/20
  Comments: This C# Console application code demonstrates the use of
-           Arrays after getting input from users. */
+           Arrays */
 
 using System;
 
