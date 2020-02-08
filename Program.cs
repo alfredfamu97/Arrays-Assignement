@@ -25,7 +25,7 @@ namespace Arrays
                 int[] numbers = new int[25];
                 int i, j;
 
-                //Initialize elements an array
+                //Initialize elements an array.
 
                 for (i = 0; i < 25; i++)
                 {
